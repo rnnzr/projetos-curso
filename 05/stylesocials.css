@@ -5,6 +5,10 @@
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
 
 html,body{
     height: 100vh;
@@ -30,4 +34,31 @@ section#telefone{
     height: 627px;
     width: 311px;
     background: url(pacote-d013/imagens/frame-iphone.png) no-repeat;
+}
+
+section>iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+#redes img:hover{
+    border: 2px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 2px 2px 10px black;
+    transition: transform .2s;
 }
