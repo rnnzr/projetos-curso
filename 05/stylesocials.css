@@ -46,6 +46,8 @@ section>iframe#tela{
 
 section#redes{
     text-align: right;
+    display: flex;
+    flex-direction: column;
 }
 
 section#redes img{
